@@ -11,3 +11,5 @@ enum Direction {
 let myDirection: Direction = Direction.Left;
 
 console.log(myDirection); // -> 2
+
+// each enum member is automatically assigned a numeric value starting from '0' by default. The subsequent numbers are incremented by 1.
